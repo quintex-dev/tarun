@@ -31,6 +31,11 @@ This repository would have a set of *three* testing strategies:
 
 Every test function needs to have complete documentation and a clear description of what it is testing. The test functions would be written in such a way that they would be able to test the `tarund` and `tarun-frontend` codebases independently.
 
+### Linting
+
+Linting is a process of checking the code for potential errors. It is a very important part of the development process and helps in maintaining a consistent codebase. A common consensus and best-practices based linting configuration would be used for both `tarund` and `tarun-frontend`.
+#TODO: Add linting configuration files
+
 #### Unit Testing
 
 The unit tests for this project would be set in stone between each major version i.e. `v1.0.0` through `v1.9.9` shall not see any changes in the unit tests. There maybe additional tests but old tests cannot be removed or modified.
