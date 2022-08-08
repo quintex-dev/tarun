@@ -1,6 +1,10 @@
+# Tarun - The World's Freshest Email client
+
+Tarun is a simple email client that is built on top of `tarund`. It aims to provide fast and easy emailing experience for the masses while including all the features that are required for a modern email client especially for those looking for Office365 and GSuite integration, complete with calendars, reminders *et al*.
+
 # About This Repository
 
-This repository would not directly receive any codes from contributors of `tarun-service` and `tarun-frontend`. This is an automated assembled repository that tracks the software releases, bug-fixes and nightly developments for **Tarun Mail**. The only code that would be directly submitted to this repository would be `devOps` related automation codes.
+This repository would not directly receive any codes from contributors of `tarund` and `tarun-frontend`. This is an automated assembled repository that tracks the software releases, bug-fixes and nightly developments for **Tarun Mail**. The only code that would be directly submitted to this repository would be `devOps` related automation codes.
 
 ### The problem
 
@@ -10,7 +14,7 @@ Therefore a little bit of `devOps` magic is needed to be able to do that.
 
 ### How does it work?
 
-Each platform viz., MacOS, Linux and Windows has a different method for allowing sharing and/or discovery of executables. Through some coded automation systems, the release branches of `tarun-service` and `tarun-frontend` would be pulled into the current `pre-release` branch of this repository. 
+Each platform viz., MacOS, Linux and Windows has a different method for allowing sharing and/or discovery of executables. Through some coded automation systems, the release branches of `tarund` and `tarun-frontend` would be pulled into the current `pre-release` branch of this repository. 
 
 [Tests](#testing) would be run on the combined codebase and if all tests pass, the release would be tagged and [a new release would be created](#release-automation). This new release would then go through the [Release Automation Process](#release-automation) and the resulting installable bundles would be uploaded to the respective test platforms. 
 
@@ -24,7 +28,7 @@ This repository would have a set of *three* testing strategies:
     2. Integration Testing
     3. Benchmarking
 
-Every test function needs to have complete documentation and a clear description of what it is testing. The test functions would be written in such a way that they would be able to test the `tarun-service` and `tarun-frontend` codebases independently.
+Every test function needs to have complete documentation and a clear description of what it is testing. The test functions would be written in such a way that they would be able to test the `tarund` and `tarun-frontend` codebases independently.
 
 #### Unit Testing
 
@@ -46,7 +50,7 @@ Additionally the following points should be noted:
 
     1. Integration tests can call external services only through provided interfaces/implementations/providers.
     2. Integration tests should not have connections/access credentials hard-coded. They should be able to read configuration from a file or environment variables.
-    3. Integration tests would be run from one of two viewpoints viz., `tarun-service` and `tarun-frontend`. 
+    3. Integration tests would be run from one of two viewpoints viz., `tarund` and `tarun-frontend`. 
 
 
 #### Benchmarking
