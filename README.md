@@ -32,7 +32,7 @@ These are the primary features selected for inclusion in the **MVP**:
     - Outbox/Sent sync when not available by native provider
     - If not available, Sync'd POP3
 
-# About this repository
+# About This Repository
 
 This repository would not directly receive any codes from contributors of `tarun-service` and `tarun-frontend`. This is an automated assembled repository that tracks the software releases, bug-fixes and nightly developments for **Tarun Mail**. The only code that would be directly submitted to this repository would be `devOps` related automation codes.
 
