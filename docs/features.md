@@ -20,6 +20,8 @@ These are the primary features selected for inclusion in the **MVP**:
     - Singature Editor + templates (at least 5)
     - Wizard for most common email providers
     - Saved Filters by name
+    - Send Later
+    - Snooze
 
 
 ## Freemium Features:
