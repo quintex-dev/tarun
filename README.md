@@ -24,9 +24,10 @@ Further upon more automated testing of these individual bundles, the release wou
 
 This repository would have a set of *three* testing strategies: 
 
-    1. Unit Testing
-    2. Integration Testing
-    3. Benchmarking
+    1. Linting - both for `tarund` and `tarun-frontend`
+    2. Unit Testing
+    3. Integration Testing
+    4. Benchmarking
 
 Every test function needs to have complete documentation and a clear description of what it is testing. The test functions would be written in such a way that they would be able to test the `tarund` and `tarun-frontend` codebases independently.
 
